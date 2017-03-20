@@ -16,6 +16,7 @@
 get_header(); ?>
 
 <div id="page" role="main">
+		<h1><?php the_title(); ?></h1>
 	<article class="main-content">
 	<?php if ( have_posts() ) : ?>
 
